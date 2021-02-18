@@ -1,0 +1,10 @@
+{
+  "name" : "_posts",
+  "fileExtension" : ".md",
+  "autoUploadInsertedImageKey" : "medoliablog-oss-cn-hangzhou",
+  "autoUploadInsertedImage" : true,
+  "folderType" : 10,
+  "mediaFloder" : "media",
+  "orderBy" : 0,
+  "newlinesToBR" : 0
+}
