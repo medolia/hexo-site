@@ -13,8 +13,8 @@ timezone: 'Asia/Shanghai'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
-url: https://medolia.github.io
-root: /hexo-blog/
+url: https://medolia.github.io/hexo-site
+root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -103,8 +103,10 @@ theme: next
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: 'git'
+  type: git
+  repo: https://medolia.github.io/hexo-site
   branch: gh-pages
+  message: 'deployment tunning'
 
 # Search
 search:
